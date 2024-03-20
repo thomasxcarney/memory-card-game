@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(127, 255, 212, 0.322);
+}
+
+#content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.card {
+  background-color: aqua;
+  width: 200px;
+  height: auto;
+}
