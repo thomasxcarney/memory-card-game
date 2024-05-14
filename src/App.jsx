@@ -7,7 +7,8 @@ function App(){
             <div id='header'>
                 <h1>Memory Card Game</h1>
                 <div id='score-container'>
-                    <p>Score</p>
+                    <p id="score">Score</p>
+                    <p id="highScore">High Score</p>
                 </div>
             </div>
             <div id='content'>
