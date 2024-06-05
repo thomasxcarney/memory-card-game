@@ -54,6 +54,7 @@ function CreateCards({updateScore}) {
     setRefresh(true);
 
     if(CardsClicked.length === 0){
+        updateScore('add');
         setCardsClicked([...CardsClicked, cardName]);
     } else if (CardsClicked.includes(cardName)){
         updateScore('reset');
@@ -66,7 +67,7 @@ function CreateCards({updateScore}) {
 
 
   return (
-    <div>
+    <>
       {isUpdated && (
         imgArr.map(pokemon => (
           <div onClick={()=>{handleClick(pokemon.name)}} className="card" key={pokemon.name} id={pokemon.name}>
@@ -75,7 +76,7 @@ function CreateCards({updateScore}) {
           </div>
         ))
       )}
-    </div>
+    </>
   );
 };
 

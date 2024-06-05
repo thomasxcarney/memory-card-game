@@ -5,17 +5,32 @@
 
 body {
   background-color: rgba(127, 255, 212, 0.322);
+  height: 100vw;
+  padding: 10px;
 }
 
 #content {
   width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+#score-container {
+  margin-bottom: 10px;
 }
 
 .card {
   background-color: aqua;
-  width: 200px;
+  width: auto;
   height: auto;
+  display: grid;
+  grid-template-columns: (1fr, 1fr);
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.353);
+  border-radius: 10px;
 }
