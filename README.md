@@ -8,6 +8,6 @@
 https://memory-card-game-one-self.vercel.app/
 
 <h2>Built with:</h2>
--React JS
--CSS
--HTML
+-React JS <br/>
+-CSS <br/>
+-HTML <br/>
