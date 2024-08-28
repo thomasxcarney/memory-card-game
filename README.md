@@ -5,7 +5,7 @@
 </p>
 
 <h2>Demo</h2>
-[https://memory-card-game-one-self.vercel.app/](https://memory-card-game-one-self.vercel.app/)
+https://memory-card-game-one-self.vercel.app/
 
 <h2>Built with:</h2>
 -React JS
